@@ -5,7 +5,7 @@ spans.forEach((span) => {
     span.innerHTML = span.dataset.width;
 });
 function downloadCV() {
-    const cvUrl = 'C:\Users\ADMIN\OneDrive\Desktop\index\cv\cv.pdf'; 
+    const cvUrl = 'C:\Users\Isaac\Desktop\cv.pdf'; 
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'Your_CV.pdf'; 
